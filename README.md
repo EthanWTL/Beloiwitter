@@ -1,4 +1,4 @@
-# Beloiwitter
+# Beloitwitter
 Welcome Software engineers :computer: and UX Designers :iphone:.
 
 This repo presents you the "[Beloitiwtter](https://github.com/EthanWTL/Beloiwitter)" for Beloit College.
