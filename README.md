@@ -152,20 +152,61 @@ Data are stored in MS SQL Server and here are the ER-diagrams.
 
 ```mermaid
 erDiagram
-    CUSTOMER ||--o{ ORDER : places
-    CUSTOMER {
+
+Students {
         string name
         string custNumber
         string sector
-    }
-    ORDER ||--|{ LINE-ITEM : contains
-    ORDER {
-        int orderNumber
-        string deliveryAddress
-    }
-    LINE-ITEM {
-        string productCode
-        int quantity
-        float pricePerUnit
-    }
+}
+
+Comments {
+int comment_id
+int students_id
+int course_id
+string info
+}
+
+Courses{
+string courser_code
+int professor_id
+int course_id
+string info
+}
+
+Course_information{
+string course_code
+int department_id
+string info
+}
+
+Departments{
+int department_id
+string department_name}
+
+Discuss{
+int discuss_id
+int student_id
+string info
+}
+
+Professors{
+int professor_id
+string info
+}
+
+Sc{
+string course_code
+course_id
+student_id
+}
+
+Students{
+int student_id
+string info
+}
+
+
+Students }|--|{ Comments : make
+
+
 ```
