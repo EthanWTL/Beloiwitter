@@ -1,0 +1,15 @@
+D:\News\Project\Beloit\DAL\bin\Debug\DAL.dll
+D:\News\Project\Beloit\DAL\bin\Debug\DAL.pdb
+D:\News\Project\Beloit\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\News\Project\Beloit\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\News\Project\Beloit\DAL\obj\Debug\DAL.dll
+D:\News\Project\Beloit\DAL\obj\Debug\DAL.pdb
+N:\News\Project\Beloit\DAL\bin\Debug\DAL.dll
+N:\News\Project\Beloit\DAL\bin\Debug\DAL.pdb
+N:\News\Project\Beloit\DAL\bin\Debug\Model.dll
+N:\News\Project\Beloit\DAL\bin\Debug\Model.pdb
+N:\News\Project\Beloit\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+N:\News\Project\Beloit\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+N:\News\Project\Beloit\DAL\obj\Debug\DAL.csproj.CopyComplete
+N:\News\Project\Beloit\DAL\obj\Debug\DAL.dll
+N:\News\Project\Beloit\DAL\obj\Debug\DAL.pdb

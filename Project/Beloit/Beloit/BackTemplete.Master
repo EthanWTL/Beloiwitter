@@ -1,0 +1,98 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BackTemplete.master.cs" Inherits="Beloit.BackTemplete" %>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend Module</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <!--link reset css-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/user.css">
+</head>
+
+<body>
+
+
+    <!--Header-->
+    <header id="header-top">
+        <!--  页眉  -->
+        <div id="top-box">
+            <div class="top-left">
+                <ul>
+                    <li><a href="index.aspx">HOME</a></li>
+                </ul>
+            </div>
+
+            <div class="top-right">
+                <ul>
+                    <%
+                        if(Session["userInfo"] != null) { 
+                        
+                    %>
+                    <li><a href="user.aspx">Welcome! <asp:Label ID="nick" runat="server" Text=""></asp:Label></a></li>
+                    <li><a href="login.aspx">Log out</a></li>
+                    <%
+                        }
+                        else
+                        {
+
+            
+                    %>
+                    <li><a href="login.aspx">Login</a></li>
+                    <li><a href="login.aspx">Sign up</a></li>
+                    <%} %>
+                    <li><a href="sendArticle.aspx">Post</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--top search bar-->
+        <div class="header-nav">
+            <div class="middle">
+                <!--icon-->
+                <img src="./img/logo.png" class="header--logo" alt="">
+                <!--search bar-->
+                <div class="header-search">
+                    <input type="text" name="search" placeholder="Search Course Code or Name" id="search">
+                    <input type="submit" id ="search--btn" value="Search">
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--body-->
+    <section id="content">
+
+       
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+
+
+    </section>
+
+    <!--bottom-->
+    <footer id="footer">
+        <p>@ 2021 Beloitwitter</p>
+        <p>
+            <a href="#">XXXX</a>
+            <a href="#">YYYY</a>
+            <a href="#">ZZZZ</a>
+        </p>
+
+    </footer>
+
+
+
+
+
+</body>
+
+</html>

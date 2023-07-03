@@ -1,0 +1,11 @@
+N:\News\Project\Beloit\BLL\bin\Debug\BLL.dll
+N:\News\Project\Beloit\BLL\bin\Debug\BLL.pdb
+N:\News\Project\Beloit\BLL\bin\Debug\DAL.dll
+N:\News\Project\Beloit\BLL\bin\Debug\Model.dll
+N:\News\Project\Beloit\BLL\bin\Debug\DAL.pdb
+N:\News\Project\Beloit\BLL\bin\Debug\Model.pdb
+N:\News\Project\Beloit\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+N:\News\Project\Beloit\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+N:\News\Project\Beloit\BLL\obj\Debug\BLL.csproj.CopyComplete
+N:\News\Project\Beloit\BLL\obj\Debug\BLL.dll
+N:\News\Project\Beloit\BLL\obj\Debug\BLL.pdb

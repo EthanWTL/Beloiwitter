@@ -1,0 +1,6 @@
+N:\News\Project\Beloit\Model\bin\Debug\Model.dll
+N:\News\Project\Beloit\Model\bin\Debug\Model.pdb
+N:\News\Project\Beloit\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+N:\News\Project\Beloit\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+N:\News\Project\Beloit\Model\obj\Debug\Model.dll
+N:\News\Project\Beloit\Model\obj\Debug\Model.pdb

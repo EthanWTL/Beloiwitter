@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeloitwitterLogin</title>
+    <!--引入样式表 ctrl+/-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!--login page css-->
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <!--登录框-->
+    <div id="login-box">
+        <h3>BELOITWITTER</h3>
+        <p>
+            <a href="#" class="active">SIGN IN</a>
+            <a href="#">SIGN UP</a>
+        </p>
+        <div class="login-register">
+            <!--login in box-->
+            <div class="login-login">
+                <div>
+                    &nbsp;&nbsp; Username&nbsp; : <input type="text" name="userName" id="user">
+                </div>
+                <div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;Password&nbsp; : <input type="password" name="password" id="password">
+                </div>
+                <div>
+                    Verification: <input type="text" name="verify" id="verify">
+                    <span>5899</span>
+                </div>
+                <div>
+                    <a href="index.html"><input type="submit" id="login__btn" value="LOGIN">
+                </div></a>
+                <div>
+                    <a href="#">"Privicy Term"</a>
+                    &
+                    <a href="#">"User Agreement"</a>
+                    <a href="#" class="login--rem">Forget Password?</a>
+                </div>
+            </div>
+            <!--register box-->
+            <div class="login-reg">
+                <div>
+                    &nbsp;&nbsp; Username&nbsp; : <input type="text" name="newUser" id="newUser">
+                </div>
+                <div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;Password&nbsp; : <input type="password" name="newPass" id="newPass">
+                </div>
+                <div>
+                    Confirm Pass: <input type="password" name="rePass" id="rePass">
+                </div>
+                <div>
+                    <input type="submit" id="register__btn" value="REGISTER">
+                </div>
+                <div>
+                    <a href="#">"Privicy Term"</a>
+                    &
+                    <a href="#">"User Agreement"</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <!--Jquery-->
+    <script>
+        //multiple tags 
+        $("#login-box p a").click(function () {
+            //get current a tag --> $(this)
+            $(this).addClass("active").siblings("a").removeClass("active");
+
+            //先获取当前元素的索引  login-->0 sign up --> 1
+            var index = $(this).index();
+            //console.log(index);
+            //show target box 
+            $(".login-register>div").eq(index).show().siblings("div").hide();
+        });
+
+        function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
+    </script>
+
+</body>
+
+</html>

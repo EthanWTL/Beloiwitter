@@ -1,0 +1,12 @@
+D:\News\Project\Beloit\Model\bin\x86\Debug\Model.dll
+D:\News\Project\Beloit\Model\bin\x86\Debug\Model.pdb
+D:\News\Project\Beloit\Model\obj\x86\Debug\Model.csproj.AssemblyReference.cache
+D:\News\Project\Beloit\Model\obj\x86\Debug\Model.csproj.CoreCompileInputs.cache
+D:\News\Project\Beloit\Model\obj\x86\Debug\Model.dll
+D:\News\Project\Beloit\Model\obj\x86\Debug\Model.pdb
+N:\News\Project\Beloit\Model\bin\x86\Debug\Model.dll
+N:\News\Project\Beloit\Model\bin\x86\Debug\Model.pdb
+N:\News\Project\Beloit\Model\obj\x86\Debug\Model.csproj.AssemblyReference.cache
+N:\News\Project\Beloit\Model\obj\x86\Debug\Model.csproj.CoreCompileInputs.cache
+N:\News\Project\Beloit\Model\obj\x86\Debug\Model.dll
+N:\News\Project\Beloit\Model\obj\x86\Debug\Model.pdb

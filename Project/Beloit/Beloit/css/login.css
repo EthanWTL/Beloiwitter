@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+body{
+    background: url("../img/bg.png")no-repeat;
+}
+
+#login-box{
+    width:400px;
+    height: 300px;
+    padding:10px;
+    background: #fff;
+    border-radius: 5px;
+    position:fixed;
+    top:50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -200px;
+}
+
+#login-box h3{
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+#login-box .active,
+#login-box p a:hover{
+    padding-bottom: 2px;
+    border-bottom:2px solid rgb(136, 136, 246);
+    color:rgb(136, 136, 246);
+    font-weight:bold;
+    margin-right: 5px;
+}
+
+#login-box p{
+    font-size: 15px;
+}
+
+/*登陆框样式编写*/
+
+.login-register{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.login-register input{
+    width: 230px;
+    height: 30px;
+    line-height:20px;
+    margin-bottom: 10px;
+}
+
+#veriCode{
+    width:100px;
+}
+
+#email__btn {
+    background: rgb(136, 136, 246);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width:100px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 20px;
+    margin-left:20px;
+}
+
+.login-register span{
+    color: blue;
+
+}
+
+.login-register a{
+    color: blue;
+    font-size: 15px;
+}
+
+.login-register a:hover{
+    color: red;
+}
+
+.login--rem{
+    margin-left: 60px;
+}
+
+#login__btn, #register__btn {
+    margin-left: 85px;
+    background: rgb(136, 136, 246);
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#login__btn:hover,#register__btn:hover{
+    cursor: pointer;
+    background: rgb(107, 107, 248);
+    transition: all 400ms linear;
+}
+
+/*error message css
+    #RequiredFieldValidator1{
+    font-size: 5px;
+}
+#RequiredFieldValidator2 {
+    font-size: 5px;
+}
+#RequiredFieldValidator3 {
+    font-size: 5px;
+}
+#CompareValidator1 {
+    font-size: 5px;
+}
+
+*/
+
+/*hide register box*/
+.login-reg {
+    display: none;
+}

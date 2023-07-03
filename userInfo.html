@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend Module</title>
+    <!--link reset css-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/user.css">
+</head>
+
+<body>
+
+
+    <!--Header-->
+    <header id="header-top">
+        <!--  页眉  -->
+        <div id="top-box">
+            <div class="top-left">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index_class.html">Class</a></li>
+                    <li><a href="">Prof.</a></li>
+                    <li><a href="">Major</a></li>
+                    <li><a href="">News</a></li>
+                </ul>
+            </div>
+
+            <div class="top-right">
+                <ul>
+                    <li><a href="user.html"><img src="./img/2.jpg" class="top--icon" alt=""></a></li>
+                    <li><a href="sendArtical.html">Post</a></li>
+                    <li><a href="">Feedback</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--top search bar-->
+        <div class="header-nav">
+            <div class="middle">
+                <!--icon-->
+                <img src="./img/logo.png" class="header--logo" alt="">
+                <!--search bar-->
+                <div class="header-search">
+                    <input type="text" name="search" placeholder="宇航网恋！狍子烫头！" id="search">
+                    <input type="submit" id="search--btn" value="Search">
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--body-->
+    <section id="content">
+
+        <!--body header-->
+        <div class="content-header middle">
+            <div class="content-bg"></div>
+            <div class="content-introduce">
+                <img src="./img/2.jpg" alt="">
+                <h3>Admin</h3>
+            </div>
+        </div>
+
+        <!--user info editing list-->
+        <div class="content-list">
+            <h3>Editing info</h3>
+            <div class="content-item">
+                <p>
+                    Icon: <img src="./img/2.jpg" alt="" class="head-img">
+                    <input type="file" name="head-logo" id="">
+                </p>
+                <div class="blank"></div>
+                <p>User name: <input type="text" name="nick" id="" value="EthanWTL"></p>
+                <div class="blank"></div>
+                <p>Intro:
+                    <textarea name="introduce" id="" cols="30" rows="5"></textarea>
+                </p>
+                <div class="blank"></div>
+                <div class="course-taken"></div>
+                <div class="blank"></div>
+                <p>Department:
+                    <select name="depart" id="depart--select">
+                        <option value="1">MATH</option>
+                        <option value="1">CSCI</option>
+                        <option value="1">MDST</option>
+                    </select>
+                    Course Level:
+                    <select name="code" id="course--select">
+                        <option value="1">100+</option>
+                        <option value="1">200+</option>
+                        <option value="1">300+</option>
+                    </select>
+                    <input type="button" value="Check" class="check--btn">
+                </p>
+                <div class="blank"></div>
+                <div class="course-choices">
+                    <div class="course--box" id="MATH-100">
+                        <p class="course-choices-name">
+                            MATH 100
+                        </p>
+
+                    </div>
+                    <div class="course--box" id="MATH-103">
+                        <p class="course-choices-name">
+                            MATH 103
+                        </p>
+
+                    </div>
+                    <div class="course--box" id="MATH-104">
+                        <p class="course-choices-name">
+                            MATH 104
+                        </p>
+                    </div>
+                </div>
+
+                <div class="class-options">
+                    <div id="class-tag">
+                        <p>[MATH 100] Introduction to Mathematical Thinking (1)</p>
+                    </div>
+                    <div class="hiddendiv">
+                        <p id="hiddendiv--detail">PROFS:
+                            <select name="" id="prof--select">
+                                <option value="1">Ben</option>
+                                <option value="1">Sam</option>
+                                <option value="1">Tom</option>
+                            </select>
+                            TIME:
+                            <select name="" id="time--select">
+                                <option value="1">Fall 2019</option>
+                                <option value="1">Spring 2019</option>
+                                <option value="1">Fall 2020</option>
+                                <option value="1">Spring 2020</option>
+                            </select>
+                        </p>
+
+                        <input type="button" name="CHOOSE-MATH100" value="CHOOSE" class="chose-class-btn">
+                    </div>
+
+                    <div id="class-tag">
+                        <p>[MATH 103] Cultural Approaches to Mathematics (1)</p>
+                    </div>
+                    <div class="hiddendiv">
+                        <p id="hiddendiv--detail">PROFS:
+                            <select name="" id="prof--select">
+                                <option value="1">Ben</option>
+                                <option value="1">Sam</option>
+                                <option value="1">Tom</option>
+                            </select>
+                            TIME:
+                            <select name="" id="time--select">
+                                <option value="1">Fall 2019</option>
+                                <option value="1">Spring 2019</option>
+                                <option value="1">Fall 2020</option>
+                                <option value="1">Spring 2020</option>
+                            </select>
+                        </p>
+                        <input type="button" name="CHOOSE-MATH103" value="CHOOSE" class="chose-class-btn">
+                    </div>
+
+                    <div id="class-tag">
+                        <p>[MATH 104] Finite Mathematics (1)</p>
+                    </div>
+                    <div class="hiddendiv">
+                        <p id="hiddendiv--detail">PROFS:
+                            <select name="" id="prof--select">
+                                <option value="1">Ben</option>
+                                <option value="1">Sam</option>
+                                <option value="1">Tom</option>
+                            </select>
+                            TIME:
+                            <select name="" id="time--select">
+                                <option value="1">Fall 2019</option>
+                                <option value="1">Spring 2019</option>
+                                <option value="1">Fall 2020</option>
+                                <option value="1">Spring 2020</option>
+                            </select>
+                        </p>
+                        <input type="button" name="CHOOSE-MATH104" value="CHOOSE" class="chose-class-btn">
+                    </div>
+                </div>
+
+
+                <p>
+                    <a href="user.html"><input type="button" value="Edit Info" class="update--btn"></a>
+                </p>
+
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!--bottom-->
+    <footer id="footer">
+        <p>@ 2021 Beloitwitter</p>
+        <p>
+            <a href="#">XXXX</a>
+            <a href="#">YYYY</a>
+            <a href="#">ZZZZ</a>
+        </p>
+
+    </footer>
+
+
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script>
+        $(".check--btn").click(function () {
+            $(".class-options").show();
+        });
+        $("input[name='CHOOSE-MATH100']").click(function () {
+            $("#MATH-100").show();
+            $(".course-choices").show();
+        });
+        $("input[name='CHOOSE-MATH103']").click(function () {
+            $("#MATH-103").show();
+            $(".course-choices").show();
+        });
+        $("input[name='CHOOSE-MATH104']").click(function () {
+            $("#MATH-104").show();
+            $(".course-choices").show();
+        });
+        $(".update--btn").click(function(){
+            alert("Successfully saved");
+        });
+        $("#MATH-100").click(function(){
+            $("#MATH-100").hide();
+        });
+        $("#MATH-103").click(function(){
+            $("#MATH-103").hide();
+        });
+        $("#MATH-104").click(function(){
+            $("#MATH-104").hide();
+        });
+    </script>
+
+
+</body>
+
+</html>
