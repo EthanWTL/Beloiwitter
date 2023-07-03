@@ -205,8 +205,11 @@ int student_id
 string info
 }
 
-
-Students }|--|{ Comments : make
-
-
+Students ||--|{ Comments : give
+Sc }|--|| Students : take
+Discuss }o--o| Students : reply
+Courses ||--o{ Comments : have
+Courses ||--|| Course_information : contain
+Professors ||--o{ Courses : teach
+Course_information ||--|| Departments : provide
 ```
